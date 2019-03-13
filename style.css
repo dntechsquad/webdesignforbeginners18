@@ -1,0 +1,174 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+}
+
+.h1-magenta {
+  color: #FF0438;
+}
+
+.h1-blue {
+  color: #2BABC9;
+}
+
+h2 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 5em;
+}
+
+h3 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 4em;
+}
+
+
+.h3-blue{
+  color: #2BABC9;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #230D30;
+}
+
+header {
+  background-color: #230D30;
+  border-bottom: 3px solid;
+  border-color: #FF0438;
+  padding-bottom: 2%;
+}
+
+.site-banner {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.header-h1-magenta {
+  float: right;
+  color: #FF0438;
+}
+
+.logo {
+  float: left;
+}
+
+.navigation {
+  clear: both;
+  font-size: 2.5em;
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: #2BABC9;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover a{
+  color: #FF0438;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+li:visited {
+  color: #FF0438;
+}
+
+#slides {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.quote {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  transition: opacity 1s;
+}
+
+.quote:nth-of-type(1) {
+  background: url("images/rebels.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-top: 150px;
+  font-size: 3em;
+  color: #fff;
+  height: 300px;
+}
+
+.quote:nth-of-type(2) {
+  background-color: yellow;
+}
+
+.quote:nth-of-type(3) {
+  background-color: black;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+.video{
+  margin: 0 auto;
+  width: 65%;
+  height: auto;
+  background-color: #230D30;
+}
+
+.rundown {
+  width: 100%;
+  height: 300px;
+  background-color: #230D30;
+}
+
+.rundown-title {
+  margin: 0 auto;
+  width: 30%;
+}
+
+.rundown-h2-magenta {
+  color: #FF0438;
+}
+
+.rita {
+  float: left;
+  width: 500px;
+}
+
+.summary {
+  color: #2BABC9;
+  font-size: 2.5em;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  background-color: yellow;
+}
+
+
+
+/*
+
+Dark Purple #230D30
+Ticket blue #2BABC9
+Magenta #FF0438
+
+*/

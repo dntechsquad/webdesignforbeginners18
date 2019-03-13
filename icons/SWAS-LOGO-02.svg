@@ -1,0 +1,35 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 50px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #FF0438;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #FF0438;
+        stroke-width: 11px;
+      }
+    </style>
+  </defs>
+  <title>SWAS-LOGO</title>
+  <path class="cls-1" d="M1755.5,953.5c0,427.47-346.53,774-774,774s-774-346.53-774-774"/>
+  <line class="cls-1" x1="182" y1="954" x2="1780" y2="954"/>
+  <path class="cls-1" d="M675.8,433.17A198.5,198.5,0,0,1,777.27,616C772,725.48,679,810,569.53,804.79S375.49,706.55,380.72,597c3.59-75.28,36-124.92,96.79-161.06"/>
+  <rect class="cls-2" x="557.51" y="444.12" width="43.07" height="226.38" rx="12" ry="12"/>
+  <circle class="cls-2" cx="579.04" cy="385.54" r="25.54"/>
+  <path class="cls-1" d="M1490.8,442.17A198.5,198.5,0,0,1,1592.27,625C1587,734.48,1494,819,1384.53,813.79s-194-98.24-188.81-207.75c3.59-75.28,36-124.92,96.79-161.06"/>
+  <rect class="cls-2" x="1372.5" y="453.5" width="43" height="226" rx="12" ry="12"/>
+  <circle class="cls-2" cx="1397" cy="395" r="25.5"/>
+  <line class="cls-1" x1="301" y1="949" x2="301" y2="1323"/>
+  <line class="cls-1" x1="1660.5" y1="953.5" x2="1662.5" y2="1322.5"/>
+  <line class="cls-1" x1="1396.5" y1="953.5" x2="1393.5" y2="1608.5"/>
+  <line class="cls-1" x1="988.5" y1="953.5" x2="989.5" y2="1728"/>
+  <line class="cls-1" x1="580.5" y1="960" x2="577.5" y2="1615"/>
+  <polyline class="cls-2" points="1319.26 598.85 1396.45 510.81 1474.93 597.7"/>
+</svg>

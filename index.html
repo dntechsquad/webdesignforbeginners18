@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave+Display" rel="stylesheet">
+    <title>
+      Service with a Smile
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class="site-banner">
+        <img class= "logo" src="icons/SWAS-LOGO-02.svg" width="120" height="100"/>
+        <h1 class="header-h1-magenta">
+          Service with a Smile
+        </h1>
+      </div>
+
+      <ul class="navigation">
+        <li>Home</li>
+        <li>Tickets</li>
+        <li>Cast & Crew</li>
+        <li>About</li>
+        <li>Music</li>
+        <li><a href="bts.html" target="_blank">Behind the Scenes</a></li>
+        <li>Contact</li>
+      </ul>
+    </header>
+
+    <div class="video">
+      <iframe width="100%" height="700em" src="https://www.youtube.com/embed/gGW4dGfdgt0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div id ="slides">
+        <div class="quote showing">
+          <p> "Get inspired to keep pushing your fight, whatever it may be, and stand up for what is right and voice what is wrong."</p>
+        </div>
+
+        <div class="quote">
+          <p> "SWAS is putting Watsonville on the map!"</p>
+        </div>
+
+        <div class="quote">
+          <p> "Another Flattering Quote!"</p>
+        </div>
+    </div>
+
+    <div class="rundown-title">
+      <h2 class="rundown-h2-magenta">The Rundown</h2>
+    </div>
+
+    <div class="rundown">
+
+      <img src="images/rita.png"/ class="rita">
+
+      <div class="summary">
+        <p>
+        Rita, a college student and part time waitress is replaced by a fleet of service robots at the restaurant where she worked. She has to make a choice – do nothing and hope for the best, or stand up for herself and join the resistance.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <h1 class="h1-blue">
+        Service with a Smile<br/>
+        Copyright 2018
+      </h1>
+      <img src="icons/SWAS ticket.png" width="200"/>
+      <h3 class="h3-blue">Buy tickets</h2>
+      <a href="#">Back to the top</a>
+    </footer>
+  </body>
+  <script>
+    var slides = document.querySelectorAll('#slides .quote');
+    var slideInterval = setInterval(nextSlide, 5000);
+    var currentSlide = 0;
+
+    function nextSlide(){
+      slides[currentSlide].className = 'quote';
+      currentSlide = (currentSlide + 1)%slides.length;
+      slides[currentSlide].className = 'quote showing';
+    }
+  </script>
+</html>
